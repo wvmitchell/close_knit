@@ -4,7 +4,6 @@ class CreateCrimes < ActiveRecord::Migration
       t.float :lat
       t.float :lng
       t.string :offense
-      t.string :address
       t.time :time
       t.string :neighborhood
 
