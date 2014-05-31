@@ -4,3 +4,7 @@
 require File.expand_path('../config/application', __FILE__)
 
 Rails.application.load_tasks
+
+task :load_crimes do
+  crime_file = CSV.open('datasets/crime_data.csv', 'r')
+end
