@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20140531194930) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "crimes", force: true do |t|
     t.float    "lat"
     t.float    "lng"
