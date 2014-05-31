@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:georss="http://www.georss.org/georss" version="2.0"><channel><title>DRCOGPUB:b_cycle_stations</title><description>null</description><link><![CDATA[http://geosrv:8080/geoserver/wms?service=wms&request=GetMap&version=1.1.1&format=application%2Frss+xml&layers=DRCOGPUB%3Ab_cycle_stations&styles=point&height=370&width=512&transparent=false&bbox=1964236.625%2C694156.625%2C4010280.25%2C2172941.5&srs=EPSG%3A2232]]></link><atom:link href="http://geosrv:8080/geoserver/wms?service=wms&amp;request=GetMap&amp;version=1.1.1&amp;format=application%2Frss+xml&amp;layers=DRCOGPUB%3Ab_cycle_stations&amp;styles=point&amp;height=370&amp;width=512&amp;transparent=false&amp;bbox=1964236.625%2C694156.625%2C4010280.25%2C2172941.5&amp;srs=EPSG%3A2232" rel="self"/><item><title>b_cycle_stations.1</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.1&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.1&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">1</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">6th & Canyon</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01506</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.28729</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.0150534904104 -105.28728007223225</georss:point></item><item><title>b_cycle_stations.2</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.2&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.2&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">2</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">10th & Walnut</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.0163</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.2823</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01629348991654 -105.28229007326664</georss:point></item><item><title>b_cycle_stations.3</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.3&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.3&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">3</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">11th & Pearl</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.017535</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.281234</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01752848967639 -105.28122407338182</georss:point></item><item><title>b_cycle_stations.4</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.4&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.4&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">4</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">13th & Spruce</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01909</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.278898</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01908348930991 -105.27888807375979</georss:point></item><item><title>b_cycle_stations.5</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.5&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.5&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">5</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">15th & Pearl</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.018721</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.27584</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01871448916393 -105.27583007451693</georss:point></item><item><title>b_cycle_stations.6</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.6&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.6&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">6</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">19th @ Boulder Creek</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01177</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.27006</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01176348975643 -105.27005007662996</georss:point></item><item><title>b_cycle_stations.7</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.7&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.7&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">7</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">1600 28th Street</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.0161</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.25807</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01609348838228 -105.25806007896932</georss:point></item><item><title>b_cycle_stations.8</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.8&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.8&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">8</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">26th @ Pearl</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.0216</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.25984</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.02159348773259 -105.25983007795443</georss:point></item><item><title>b_cycle_stations.9</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.9&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.9&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">9</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Alpine & Broadway</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.02543</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.28144</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.025423488593894 -105.28143007247215</georss:point></item><item><title>b_cycle_stations.10</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.10&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.10&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">10</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Library @ Arapahoe</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01377</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.28087</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.013763490175556 -105.28086007387772</georss:point></item><item><title>b_cycle_stations.11</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.11&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.11&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">11</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Municipal Building</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01508</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.27959</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01507348991116 -105.27958007403494</georss:point></item><item><title>b_cycle_stations.12</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.12&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.12&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">12</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">RTD</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01663</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.27646</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01662348949422 -105.27645007459964</georss:point></item><item><title>b_cycle_stations.13</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.13&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.13&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">13</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">UCAR Center Green</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.03154</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.24611</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.03153348546696 -105.24610008009013</georss:point></item><item><title>b_cycle_stations.14</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.14&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.14&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">14</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">UCAR Mitchell Lane</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.03643</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.24226</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.03642348453964 -105.2422500804595</georss:point></item><item><title>b_cycle_stations.15</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.15&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.15&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">15</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">The Village</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">40.01491</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.26061</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Boulder</span></li>
+  
+</ul>
+]]></description><georss:point>40.01490348871127 -105.26060007850342</georss:point></item><item><title>b_cycle_stations.16</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.16&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.16&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">16</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">10th & Osage</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73231</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00535</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73230351191566 -105.00534016886597</georss:point></item><item><title>b_cycle_stations.17</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.17&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.17&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">17</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">11th & Broadway</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73339</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98753</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73338351063416 -104.98752017294153</georss:point></item><item><title>b_cycle_stations.18</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.18&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.18&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">18</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">11th & Emerson</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73361</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.97629</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73360350989088 -104.97628017556187</georss:point></item><item><title>b_cycle_stations.19</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.19&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.19&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">19</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">12th & Sherman</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.7358</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98469</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.735793510114696 -104.98468017335321</georss:point></item><item><title>b_cycle_stations.20</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.20&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.20&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">20</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">1350 Larimer</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74684</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00029</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74683350954923 -105.00028016851005</georss:point></item><item><title>b_cycle_stations.21</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.21&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.21&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">21</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">13th & Pearl</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73683</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73682350967239 -104.97999017434684</georss:point></item><item><title>b_cycle_stations.22</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.22&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.22&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">22</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">1450 Wazee</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74997</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00165</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74996350919492 -105.00164016785703</georss:point></item><item><title>b_cycle_stations.23</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.23&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.23&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">23</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">14th & Champa</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74456</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99634</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74455350961968 -104.99633016968154</georss:point></item><item><title>b_cycle_stations.24</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.24&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.24&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">24</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">14th & Elati</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73862</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99395</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.738613510304496 -104.99394017087556</georss:point></item><item><title>b_cycle_stations.25</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.25&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.25&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">25</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">14th & Welton</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74267</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99391</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7426635097317 -104.99390017045411</georss:point></item><item><title>b_cycle_stations.26</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.26&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.26&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">26</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">1550 Glenarm</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74329</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99107</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.743283509464305 -104.99106017105602</georss:point></item><item><title>b_cycle_stations.27</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.27&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.27&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">27</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">15th & Cleveland</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74064</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98863</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74063350968279 -104.98862017191182</georss:point></item><item><title>b_cycle_stations.28</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.28&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.28&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">28</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">15th & Delgany</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75244</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00379</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75243350898308 -105.00378016709084</georss:point></item><item><title>b_cycle_stations.29</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.29&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.29&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">29</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">16th & Boulder</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75934</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.01042</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75933350843291 -105.01041016479687</georss:point></item><item><title>b_cycle_stations.30</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.30&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.30&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">30</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">16th & Broadway</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74184</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98686</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7418335094016 -104.98685017220045</georss:point></item><item><title>b_cycle_stations.31</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.31&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.31&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">31</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">16th & Little Raven</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75524</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00488</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75523350865819 -105.0048701665363</georss:point></item><item><title>b_cycle_stations.32</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.32&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.32&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">32</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">16th & Platte</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75746</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00811</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75745350855077 -105.00810016554034</georss:point></item><item><title>b_cycle_stations.33</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.33&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.33&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">33</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">16th & Sherman</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74191</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98495</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7419035092706 -104.98494017264227</georss:point></item><item><title>b_cycle_stations.34</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.34&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.34&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">34</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">17th & Blake</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75176</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99814</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75175350872033 -104.99813016849188</georss:point></item><item><title>b_cycle_stations.35</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.35&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.35&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">35</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">17th & Curtis</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74767</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99339</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74766350899477 -104.99338017004435</georss:point></item><item><title>b_cycle_stations.36</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.36&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.36&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">36</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">17th & Larimer</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74984</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99604</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74983350885737 -104.99603016919016</georss:point></item><item><title>b_cycle_stations.37</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.37&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.37&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">37</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">18th & California</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.747</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99003</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74699350887598 -104.99002017090588</georss:point></item><item><title>b_cycle_stations.38</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.38&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.38&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">38</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">19th & Market</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75262</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99485</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75261350839056 -104.99484016917404</georss:point></item><item><title>b_cycle_stations.39</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.39&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.39&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">39</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">19th & Pearl</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.7461</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.97954</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74609350833756 -104.97953017346904</georss:point></item><item><title>b_cycle_stations.40</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.40&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.40&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">40</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">19th & Wynkoop</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75489</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99694</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.754883508203655 -104.99693016844077</georss:point></item><item><title>b_cycle_stations.41</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.41&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.41&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">41</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">2045 Franklin</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74729</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.96851</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74728350747063 -104.96850017593728</georss:point></item><item><title>b_cycle_stations.42</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.42&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.42&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">42</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">22nd & Market</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75559</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99078</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7555835077143 -104.99077016981498</georss:point></item><item><title>b_cycle_stations.43</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.43&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.43&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">43</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">22nd & Pennsylvania</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74763</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98107</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74762350821912 -104.98106017294636</georss:point></item><item><title>b_cycle_stations.44</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.44&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.44&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">44</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">250 Columbine</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.72026</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.95672</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.720253510533084 -104.95671018158396</georss:point></item><item><title>b_cycle_stations.45</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.45&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.45&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">45</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">25th & Lawrence</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.757</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.9855</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75699350718084 -104.98549017090679</georss:point></item><item><title>b_cycle_stations.46</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.46&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.46&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">46</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">28th & Larimer</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.76042</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98308</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.76041350654591 -104.98307017111178</georss:point></item><item><title>b_cycle_stations.47</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.47&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.47&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">47</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">3rd & Milwaukee</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.72055</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.95253</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.720543510226925 -104.95252018253906</georss:point></item><item><title>b_cycle_stations.48</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.48&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.48&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">48</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">4th & Walnut</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74283</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.01235</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74282351087854 -105.0123401661012</georss:point></item><item><title>b_cycle_stations.49</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.49&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.49&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">49</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">7th & Grant</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.72778</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98373</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.727773511183706 -104.98372017443144</georss:point></item><item><title>b_cycle_stations.50</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.50&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.50&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">50</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">9th & Downing</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73078</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.97279</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73077351006793 -104.97278017668592</georss:point></item><item><title>b_cycle_stations.51</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.51&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.51&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">51</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">9th & Santa Fe</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73058</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.9991</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.730573511763176 -104.99909017051941</georss:point></item><item><title>b_cycle_stations.52</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.52&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.52&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">52</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Broadway & Walnut</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75822</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98736</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75821350712714 -104.98735017033933</georss:point></item><item><title>b_cycle_stations.53</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.53&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.53&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">53</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Buchtel and High</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.68504</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.96503</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.685033516027026 -104.96502018336308</georss:point></item><item><title>b_cycle_stations.54</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.54&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.54&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">54</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Cherry Creek Mall</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.71504</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.95218</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.71503351098186 -104.95217018320622</georss:point></item><item><title>b_cycle_stations.55</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.55&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.55&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">55</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Denver Botanic Gardens</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73258</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.95989</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73257350899702 -104.95988017952958</georss:point></item><item><title>b_cycle_stations.56</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.56&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.56&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">56</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Denver Health</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.72767</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99085</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.72766351165029 -104.99084017276867</georss:point></item><item><title>b_cycle_stations.57</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.57&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.57&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">57</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Denver Public Library</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.73713</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.9887</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.73712351018156 -104.98869017226868</georss:point></item><item><title>b_cycle_stations.58</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.58&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.58&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">58</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">DU Driscoll Center</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.67918</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.96299</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.679173516725186 -104.96298018446322</georss:point></item><item><title>b_cycle_stations.59</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.59&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.59&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">59</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Ellsworth & Madison</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.71591</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.94633</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7159035104889 -104.94632018449046</georss:point></item><item><title>b_cycle_stations.60</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.60&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.60&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">60</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Five Points</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75459</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.97805</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75458350704754 -104.97804017291593</georss:point></item><item><title>b_cycle_stations.61</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.61&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.61&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">61</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Florida & S. Pearl</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.68933</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.97995</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.68932351636497 -104.97994017939983</georss:point></item><item><title>b_cycle_stations.62</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.62&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.62&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">62</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Louisiana & Franklin</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.69284</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.96857</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.692833515150234 -104.96856018170432</georss:point></item><item><title>b_cycle_stations.63</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.63&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.63&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">63</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Louisiana / Pearl Light Rail</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.69341</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.97911</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.69340351573637 -104.97910017916504</georss:point></item><item><title>b_cycle_stations.64</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.64&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.64&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">64</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Market Street Station</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75011</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99824</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7501035089589 -104.99823016864401</georss:point></item><item><title>b_cycle_stations.65</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.65&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.65&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">65</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Park Ave West & Tremont</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74956</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.98073</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.749553507925775 -104.9807201728209</georss:point></item><item><title>b_cycle_stations.66</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.66&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.66&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">66</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Pepsi Center</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74769</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00843</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.7476835099459 -105.00842016650557</georss:point></item><item><title>b_cycle_stations.67</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.67&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.67&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">67</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">REI</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.75518</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-105.00865</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.75517350890586 -105.00864016565625</georss:point></item><item><title>b_cycle_stations.68</title><link><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.68&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></link><guid><![CDATA[http://geosrv:8080/geoserver/wms/reflect?featureid=b_cycle_stations.68&layers=DRCOGPUB%3Ab_cycle_stations&format=application%2Fatom%2Bxml]]></guid><description><![CDATA[<h4>b_cycle_stations</h4>
+
+<ul class="textattributes">
+  <li><strong><span class="atr-name">gid</span>:</strong> <span class="atr-value">68</span></li>
+  <li><strong><span class="atr-name">station</span>:</strong> <span class="atr-value">Webb Building</span></li>
+  <li><strong><span class="atr-name">lat</span>:</strong> <span class="atr-value">39.74044</span></li>
+  <li><strong><span class="atr-name">long</span>:</strong> <span class="atr-value">-104.99019</span></li>
+  <li><strong><span class="atr-name">city_loc</span>:</strong> <span class="atr-value">Denver</span></li>
+  
+</ul>
+]]></description><georss:point>39.74043350980983 -104.9901801715662</georss:point></item></channel></rss>
