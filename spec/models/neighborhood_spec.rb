@@ -16,4 +16,8 @@ describe Neighborhood do
     neighborhood.recreation_score.should_not be nil
   end
 
+  it '#social_score' do
+    neighborhood.social_score.should_not be nil
+  end
+
 end
