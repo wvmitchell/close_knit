@@ -47,7 +47,7 @@
           map = new Map("mapDiv", {
             center: [-104.98, 39.73],
             zoom: 12,
-            basemap: "streets"
+            basemap: "gray"
           });
 
           var featureLayer = new FeatureLayer("http://services2.arcgis.com/p0ZMctqs29zvLCpq/arcgis/rest/services/statistical_neighborhoods/FeatureServer/0", {
@@ -61,10 +61,11 @@
             SimpleFillSymbol.STYLE_SOLID, 
             new SimpleLineSymbol(
               SimpleLineSymbol.STYLE_SOLID, 
-              new Color([255,255,255,0.35]), 
+              // new Color([255,255,255,0.35]), 
+              new Color([56,61,63,1]), 
               1
               ),
-            new Color([125,125,125,0.35])
+            new Color([199,200,196,0.25])
             );
           featureLayer.setRenderer(new SimpleRenderer(symbol));
           map.addLayer(featureLayer);
@@ -81,7 +82,7 @@
             SimpleFillSymbol.STYLE_SOLID, 
             new SimpleLineSymbol(
               SimpleLineSymbol.STYLE_SOLID, 
-              new Color([255,0,0]), 3
+              new Color([255,0,0,0]), 3
               ), 
             new Color([125,125,125,0.35])
             );
@@ -94,20 +95,24 @@
             });
 
             featureLayer.on("mouse-over", function(evt){
-              var t = "${NBHD_NAME}"
-
-              var content = esriLang.substitute(evt.graphic.attributes,t);
-              var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
-              map.graphics.add(highlightGraphic);
-
-              dialog.setContent(content);
-
-              domStyle.set(dialog.domNode, "opacity", 0.85);
-              dijitPopup.open({
-                popup: dialog, 
-                x: evt.pageX,
-                y: evt.pageY
-              });
+              $.get("scores", function(data){
+                var t = "${NBHD_NAME}"
+  
+                var content = esriLang.substitute(evt.graphic.attributes,t);
+                var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
+  
+                map.graphics.add(highlightGraphic);
+  
+                dialog.setContent(data);
+  
+  
+                domStyle.set(dialog.domNode, "opacity", 0.85);
+                dijitPopup.open({
+                  popup: dialog, 
+                  x: evt.pageX,
+                  y: evt.pageY
+                });
+              })
             });
 
             function closeDialog() {
