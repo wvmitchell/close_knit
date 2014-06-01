@@ -100,12 +100,15 @@
               var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
               map.graphics.add(highlightGraphic);
               var crime_score = crime_scores[hood.toLowerCase()]
+              var social_score = Math.floor(Math.random()*100)
+              var access_score = Math.floor(Math.random()*100)
               if(typeof(crime_score) == 'undefined'){
                 crime_score = 67;
               }
               var crime_bar = crime_score * 3
+              var access_bar = access_score * 3
+              var social_bar = social_score * 3
               var content =  '<span class="n_name">'+ hood + '</span>'+
-                            '<img src="/assets/tool_tip.png" class="tool_tip">'+
                             '<span class="lg">Accessibility</span>'+
                             '<span class="dg">Music &amp; Culture</span>'+
                             '<span class="lg lg2">Crime</span>'+
@@ -117,13 +120,15 @@
                             '<span class="bar value_mac"><span class="bar_shadow"></span></span>'+
                             '<span class="bar value_acc"><span class="bar_shadow"></span></span>'+
                             '</div>'+
-                            '<span class="circle circle_col">89</span>'+
-                            '<span class="circle circle_mac">78</span>'+
+                            '<span class="circle circle_col">'+ access_score + '</span>'+
+                            '<span class="circle circle_mac">'+ social_score + '</span>'+
                             '<span class="circle circle_acc">'+ crime_score +'</span>'
                   $('.n_stats').css('left', (evt.pageX));
                   $('.n_stats').css('top', (evt.pageY));
                   $('.n_stats').html(content);
                   $('.value_col').css('width', (crime_bar + 'px'));
+                  $('.value_acc').css('width', (access_bar + 'px'));
+                  $('.value_mac').css('width', (social_bar + 'px'));
               });
 
             function closeDialog() {
