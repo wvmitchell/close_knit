@@ -1,5 +1,3 @@
-require 'pry'
-
 class ResturantFetcher
   include Yelp::V2::Search::Request
 
