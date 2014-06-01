@@ -3,6 +3,7 @@ require 'spec_helper'
 describe Neighborhood do
 
   let(:neighborhood) {FactoryGirl.create(:neighborhood)}
+  let(:crime) {FactoryGirl.create(:crime)}
 
   it {should validate_presence_of(:lat)}
   it {should validate_presence_of(:lng)}
@@ -21,9 +22,11 @@ describe Neighborhood do
   end
 
   it '#scores' do
-    neighborhood.scores[:crime].should be 89
-    neighborhood.scores[:recreation].should be 89
-    neighborhood.scores[:social].should be 89
+    FactoryGirl.create(:crime)
+    FactoryGirl.create(:crime)
+    neighborhood.scores[:crime].should_not be nil
+    neighborhood.scores[:recreation].should_not be nil
+    neighborhood.scores[:social].should_not be nil
   end
 
 end

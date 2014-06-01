@@ -10,8 +10,7 @@ class Neighborhood < ActiveRecord::Base
   end
 
   def crime_score
-    #@crime_score ||= CrimeScore.calculate(lat, lng)
-    89
+    @crime_score ||= CrimeScore.calculate(lat, lng)
   end
 
   def recreation_score
