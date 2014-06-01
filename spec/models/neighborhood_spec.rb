@@ -20,4 +20,10 @@ describe Neighborhood do
     neighborhood.social_score.should_not be nil
   end
 
+  it '#scores' do
+    neighborhood.scores[:crime].should be 89
+    neighborhood.scores[:recreation].should be 89
+    neighborhood.scores[:social].should be 89
+  end
+
 end
