@@ -1,0 +1,1797 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.yelp.com/v2/search?ll=39,150
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="12-McFqsA6Rb08SCgu3P2A", oauth_nonce="XXNiknqyQf7AWe6j0613vPQUEiYLfyvbvhodclmfok",
+        oauth_signature="GULxSKXO3ulZXW8qvu1Zw5raCAY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1401607440", oauth_token="SO3mGqTDpqnI3IoAfcdEiPV13l3gmY2m",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Sun, 01 Jun 2014 07:24:00 GMT
+      Server:
+      - Apache
+      X-Node:
+      - web33, api_com
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - bse=177998d8f3cbe6c08a05e78de3b311df; Domain=.yelp.com; Path=/; HttpOnly
+      Content-Length:
+      - '105'
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Mode:
+      - rw
+      X-Proxied:
+      - lb1
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "error": {
+            "text": "API unavailable in this location",
+            "id": "UNAVAILABLE_FOR_LOCATION"
+          }
+        }
+    http_version: 
+  recorded_at: Sun, 01 Jun 2014 07:24:00 GMT
+- request:
+    method: get
+    uri: http://api.yelp.com/v2/search?ll=39,-150
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="12-McFqsA6Rb08SCgu3P2A", oauth_nonce="ersNWDsaJe8n3QqWTjBjKwDsZZjHz0xjvtjI7m09sk",
+        oauth_signature="TVn0GWVg8UZhx%2BG%2FUemiJzLQcHY%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1401607579", oauth_token="SO3mGqTDpqnI3IoAfcdEiPV13l3gmY2m",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Sun, 01 Jun 2014 07:26:21 GMT
+      Server:
+      - Apache
+      X-Node:
+      - web75-r7-sfo1, api_com
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - bse=d68e54b3c45fea7447c42be4266b6ef0; Domain=.yelp.com; Path=/; HttpOnly
+      Content-Length:
+      - '105'
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Mode:
+      - rw
+      X-Proxied:
+      - lb2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "error": {
+            "text": "API unavailable in this location",
+            "id": "UNAVAILABLE_FOR_LOCATION"
+          }
+        }
+    http_version: 
+  recorded_at: Sun, 01 Jun 2014 07:26:22 GMT
+- request:
+    method: get
+    uri: http://api.yelp.com/v2/search?ll=39,-104
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="12-McFqsA6Rb08SCgu3P2A", oauth_nonce="jkb6c7fWMnVuptujFCDt8oXU2FCGjujGCFxPouoxoJs",
+        oauth_signature="jdfVyDLQ5U4N7MyddIECnx4JeNQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1401607694", oauth_token="SO3mGqTDpqnI3IoAfcdEiPV13l3gmY2m",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 01 Jun 2014 07:28:15 GMT
+      Server:
+      - Apache
+      X-Node:
+      - web38, api_com
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - bse=c9eb72c72843b688427be833fea15949; Domain=.yelp.com; Path=/; HttpOnly
+      Content-Length:
+      - '210'
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Mode:
+      - rw
+      X-Proxied:
+      - lb2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "region": {
+            "span": {
+              "latitude_delta": 0.0,
+              "longitude_delta": 0.0
+            },
+            "center": {
+              "latitude": 39.0,
+              "longitude": -104.0
+            }
+          },
+          "total": 0,
+          "businesses": [
+
+          ]
+        }
+    http_version: 
+  recorded_at: Sun, 01 Jun 2014 07:28:15 GMT
+- request:
+    method: get
+    uri: http://api.yelp.com/v2/search?ll=39,-104&term=burgers
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="12-McFqsA6Rb08SCgu3P2A", oauth_nonce="Yj8bSutOO4yNKIwmchuHG38j10yJptmeSjTLnS4w",
+        oauth_signature="uxIPXWlvClEhZUnKV5bVcrH%2FDNw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1401607851", oauth_token="SO3mGqTDpqnI3IoAfcdEiPV13l3gmY2m",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 01 Jun 2014 07:30:51 GMT
+      Server:
+      - Apache
+      X-Node:
+      - web38, api_com
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - bse=576aeebd56401b576db9ec2720170207; Domain=.yelp.com; Path=/; HttpOnly
+      Content-Length:
+      - '34433'
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Mode:
+      - rw
+      X-Proxied:
+      - lb2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "region": {
+            "span": {
+              "latitude_delta": 0.21752570219621248,
+              "longitude_delta": 0.9019660949705894
+            },
+            "center": {
+              "latitude": 38.903650557217205,
+              "longitude": -104.40998458862299
+            }
+          },
+          "total": 190,
+          "businesses": [
+            {
+              "is_claimed": true,
+              "distance": 69273.62023230174,
+              "mobile_url": "http://m.yelp.com/biz/crave-real-burgers-colorado-springs",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 124,
+              "name": "Crave Real Burgers",
+              "snippet_image_url": "http://s3-media2.ak.yelpcdn.com/photo/-Gkxub7Gz2LdMfkSw2oULw/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/crave-real-burgers-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "7465 N Academy Blvd",
+                  "Colorado Springs, CO 80920"
+                ],
+                "postal_code": "80920",
+                "country_code": "US",
+                "address": [
+                  "7465 N Academy Blvd"
+                ],
+                "state_code": "CO"
+              },
+              "menu_date_updated": 1401173286,
+              "phone": "7192647919",
+              "snippet_text": "Amazing, glorious food coma! I had the Cubano! So amazing. All of the flavors melded together amazing well. I was very impressed that I was able to finish...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/DTavYQGX-RjOaI_Q7tlRNA/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-264-7919",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "menu_provider": "single_platform",
+              "id": "crave-real-burgers-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 69322.9671623366,
+              "mobile_url": "http://m.yelp.com/biz/drifters-hamburgers-colorado-springs-2",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 20,
+              "name": "Drifter's Hamburgers",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/cc4afe21892e/default_avatars/user_medium_square.png",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/drifters-hamburgers-colorado-springs-2",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "1485 Jamboree Dr",
+                  "Colorado Springs, CO 80920"
+                ],
+                "postal_code": "80920",
+                "country_code": "US",
+                "address": [
+                  "1485 Jamboree Dr"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7192641512",
+              "snippet_text": "Friendly staff.  Quick food.  Damn good burgers and fries.  Best burger, fries, and soda you can get for $7.\n\nBonus points for having Pepsi products.",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/R5BvS_K9HtxerZniEh5TMg/ms.jpg",
+              "categories": [
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ],
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-264-1512",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "id": "drifters-hamburgers-colorado-springs-2",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 69434.72608232322,
+              "mobile_url": "http://m.yelp.com/biz/five-guys-burgers-and-fries-colorado-springs-2",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 78,
+              "name": "Five Guys Burgers and Fries",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/ArdpRWuieMXKvBEs-TM9KA/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/five-guys-burgers-and-fries-colorado-springs-2",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "7252 N Academy Blvd",
+                  "Ste 120",
+                  "Colorado Springs, CO 80920"
+                ],
+                "postal_code": "80920",
+                "country_code": "US",
+                "address": [
+                  "7252 N Academy Blvd",
+                  "Ste 120"
+                ],
+                "state_code": "CO"
+              },
+              "menu_date_updated": 1387661010,
+              "phone": "7192646400",
+              "snippet_text": "Best burger in town. Good quality, taste and price. I recommend this place to all of my friends.",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/aeKY4NdA5lz6mz_DjLNkww/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ],
+                [
+                  "American (New)",
+                  "newamerican"
+                ]
+              ],
+              "display_phone": "+1-719-264-6400",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "menu_provider": "single_platform",
+              "id": "five-guys-burgers-and-fries-colorado-springs-2",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 73391.67911806253,
+              "mobile_url": "http://m.yelp.com/biz/the-green-line-grill-colorado-springs",
+              "rating_img_url": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+              "review_count": 17,
+              "name": "The Green Line Grill",
+              "snippet_image_url": "http://s3-media2.ak.yelpcdn.com/photo/IRXtDBqMUOzsrhaSSbYjfQ/ms.jpg",
+              "rating": 4.5,
+              "url": "http://www.yelp.com/biz/the-green-line-grill-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "230 1/2 Pueblo Ave",
+                  "Colorado Springs, CO 80903"
+                ],
+                "postal_code": "80903",
+                "country_code": "US",
+                "address": [
+                  "230 1/2 Pueblo Ave"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7193100175",
+              "snippet_text": "Great burgers & fun staff!   This hole in the wall near downtown is cute & clean on the inside with a 50's vibe.  It is no GMO friendly and the hand-cut...",
+              "image_url": "http://s3-media1.ak.yelpcdn.com/bphoto/5qU7AjY0YKftesL1bOuiyg/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-310-0175",
+              "rating_img_url_large": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+              "id": "the-green-line-grill-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 90883.29897816086,
+              "mobile_url": "http://m.yelp.com/biz/teds-montana-grill-aurora-3",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 61,
+              "name": "Ted's Montana Grill",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/09Rl0GcUYRXuSFxBSuvL4Q/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/teds-montana-grill-aurora-3",
+              "location": {
+                "city": "Aurora",
+                "display_address": [
+                  "6105 S Main St",
+                  "Ste 101",
+                  "Aurora, CO 80015"
+                ],
+                "postal_code": "80015",
+                "country_code": "US",
+                "address": [
+                  "6105 S Main St",
+                  "Ste 101"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7208704470",
+              "snippet_text": "This place was great both times I have gone. The first was with my friend who has three allergies (gluten, soy, and dairy) and the second withy friend who...",
+              "image_url": "http://s3-media1.ak.yelpcdn.com/bphoto/pZ-fcIec6PEAGcRt7l7K1A/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ],
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-720-870-4470",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "teds-montana-grill-aurora-3",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 70581.76700899519,
+              "mobile_url": "http://m.yelp.com/biz/bjs-velvet-freez-drive-in-colorado-springs",
+              "rating_img_url": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+              "review_count": 37,
+              "name": "BJ's Velvet Freez Drive In",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/oo1J5i7kDcqZIOZGoJ3_BQ/ms.jpg",
+              "rating": 4.5,
+              "url": "http://www.yelp.com/biz/bjs-velvet-freez-drive-in-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "1511 N Union Blvd",
+                  "Colorado Springs, CO 80909"
+                ],
+                "postal_code": "80909",
+                "country_code": "US",
+                "address": [
+                  "1511 N Union Blvd"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7196336365",
+              "snippet_text": "I'm not quite sure how I haven't reviewed this place! It's on my way home, or I can easily make it on my way. I can walk here, and walk the dog here..... So...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/MNvdF6DCjCVNJ0D030GKVA/ms.jpg",
+              "categories": [
+                [
+                  "Ice Cream & Frozen Yogurt",
+                  "icecream"
+                ],
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-633-6365",
+              "rating_img_url_large": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+              "id": "bjs-velvet-freez-drive-in-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 71389.1316720807,
+              "mobile_url": "http://m.yelp.com/biz/smashburger-colorado-springs-2",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 34,
+              "name": "Smashburger",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/AI_ddp4hRNlfTmN3iyd1CQ/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/smashburger-colorado-springs-2",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "5230 N Nevada Ave",
+                  "Colorado Springs, CO 80918"
+                ],
+                "postal_code": "80918",
+                "country_code": "US",
+                "address": [
+                  "5230 N Nevada Ave"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7192190500",
+              "snippet_text": "Omg! This is the best burger I've had in years!!!! In a town/state I've never been . And I love it!!! I ate a truffle mushroom Swiss (sub Swiss for blue...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/pOgqql7_4sEUlXbXcFraGw/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-219-0500",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "smashburger-colorado-springs-2",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 95815.17023305153,
+              "mobile_url": "http://m.yelp.com/biz/five-guys-burgers-and-fries-aurora",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 57,
+              "name": "Five Guys Burgers and Fries",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/KULqIKE9KToWVzib0s9UWw/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/five-guys-burgers-and-fries-aurora",
+              "location": {
+                "city": "Aurora",
+                "display_address": [
+                  "6710 S Cornerstar Way",
+                  "Unit C",
+                  "Aurora, CO 80016"
+                ],
+                "postal_code": "80016",
+                "country_code": "US",
+                "address": [
+                  "6710 S Cornerstar Way",
+                  "Unit C"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "3036994100",
+              "snippet_text": "I love any Five Guys Burgers and this location is pretty good, I have had really great customer service and also some not so great service here. \n\nOne of...",
+              "image_url": "http://s3-media1.ak.yelpcdn.com/bphoto/JzP2xyKl3QMdKNjZfHexTQ/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ]
+              ],
+              "display_phone": "+1-303-699-4100",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "five-guys-burgers-and-fries-aurora",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 95617.21944016809,
+              "mobile_url": "http://m.yelp.com/biz/freddys-frozen-custard-and-steakburgers-aurora-2",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 39,
+              "name": "Freddy's Frozen Custard & Steakburgers",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/srxKLg7ZDrJsj4J1-NFzJg/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/freddys-frozen-custard-and-steakburgers-aurora-2",
+              "location": {
+                "city": "Aurora",
+                "display_address": [
+                  "15705 E Briarwood Cir",
+                  "Aurora, CO 80016"
+                ],
+                "postal_code": "80016",
+                "country_code": "US",
+                "address": [
+                  "15705 E Briarwood Cir"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "3036937992",
+              "snippet_text": "Food has very good, service was excellent for it being a Friday night during the rush. I got the double steak burger with onion rings.\n\nIt is probably the...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/QY0k3IXYDfI4K_7WoPSG2Q/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Ice Cream & Frozen Yogurt",
+                  "icecream"
+                ]
+              ],
+              "display_phone": "+1-303-693-7992",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "freddys-frozen-custard-and-steakburgers-aurora-2",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 74201.11682660348,
+              "mobile_url": "http://m.yelp.com/biz/larkburger-colorado-springs",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 32,
+              "name": "Larkburger",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/TOh-YHELC6eHtzbuuziuCA/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/larkburger-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "1904 Southgate Rd",
+                  "Colorado Springs, CO 80905"
+                ],
+                "postal_code": "80905",
+                "country_code": "US",
+                "address": [
+                  "1904 Southgate Rd"
+                ],
+                "state_code": "CO"
+              },
+              "menu_date_updated": 1401188938,
+              "phone": "7194666111",
+              "snippet_text": "I went two days ago to this place and the food was great. I ordered the Larkburger with Swiss cheese and truffle fries which were amazing. The downside was...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/Mzpy8cwvrNJvYyUHTffrMg/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-466-6111",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "menu_provider": "single_platform",
+              "id": "larkburger-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 63241.72883579284,
+              "mobile_url": "http://m.yelp.com/biz/smashburger-colorado-springs",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 40,
+              "name": "Smashburger",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/39uR64LcXwELazwREMAlGA/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/smashburger-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "3707 Bloomington St",
+                  "Colorado Springs, CO 80922"
+                ],
+                "postal_code": "80922",
+                "country_code": "US",
+                "address": [
+                  "3707 Bloomington St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7195744126",
+              "snippet_text": "Smashburger gets a solid 3.5 stars.  I usually get the mushroom swiss burger, which includes a devilish truffled mayo.  The burgers are always tasty and...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/EWeTqsf-o7boqzjmymrpkQ/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-574-4126",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "smashburger-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 62962.27342764995,
+              "mobile_url": "http://m.yelp.com/biz/sandys-restaurant-colorado-springs",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 39,
+              "name": "Sandy's Restaurant",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/F65jhA0t46F_-RCerbX3gw/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/sandys-restaurant-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "6940 Space Village Ave",
+                  "Colorado Springs, CO 80915"
+                ],
+                "postal_code": "80915",
+                "country_code": "US",
+                "address": [
+                  "6940 Space Village Ave"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7196510596",
+              "snippet_text": "My family and I LOVE Sandy's. If you like fancy, Sandy's isn't for you. They take only cash but have an ATM available. \n\nTheir food...you will not leave...",
+              "image_url": "http://s3-media1.ak.yelpcdn.com/bphoto/KMEplbh7p6fSfZ5LCspW0Q/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Breakfast & Brunch",
+                  "breakfast_brunch"
+                ]
+              ],
+              "display_phone": "+1-719-651-0596",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "id": "sandys-restaurant-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 69026.23520258017,
+              "mobile_url": "http://m.yelp.com/biz/bunz-bakery-and-burger-bar-colorado-springs",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 36,
+              "name": "Bunz Bakery & Burger Bar",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/NzygeK18fs0Hhq7fy7MnZA/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/bunz-bakery-and-burger-bar-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "11550 Ridgeline Dr",
+                  "Colorado Springs, CO 80921"
+                ],
+                "postal_code": "80921",
+                "country_code": "US",
+                "address": [
+                  "11550 Ridgeline Dr"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7194810555",
+              "snippet_text": "Colorado Springs is not a city that can boast about local eateries, but amongst the over commercialized, everyday burger places that liter the area; Bunz is...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/Q2I5vIqKhQigp_SCi8p1QA/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Bakeries",
+                  "bakeries"
+                ]
+              ],
+              "display_phone": "+1-719-481-0555",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "bunz-bakery-and-burger-bar-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 62894.46926853511,
+              "mobile_url": "http://m.yelp.com/biz/freddys-frozen-custard-and-steakburgers-colorado-springs",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 31,
+              "name": "Freddy's Frozen Custard & Steakburgers",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/s6F_E-NpYWMq593S1eClbw/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/freddys-frozen-custard-and-steakburgers-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "5825 Stetson Hills Blvd",
+                  "Colorado Springs, CO 80922"
+                ],
+                "postal_code": "80922",
+                "country_code": "US",
+                "address": [
+                  "5825 Stetson Hills Blvd"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7195975878",
+              "snippet_text": "Born and raised California girl, here. My dad was the city planner who was in charge of putting in the In-N-Out Burger in my town -- which is why I'm fairly...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/T8nZMNjBwlhQdCbzq_Qhdw/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Desserts",
+                  "desserts"
+                ]
+              ],
+              "display_phone": "+1-719-597-5878",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "freddys-frozen-custard-and-steakburgers-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 95381.91862240086,
+              "mobile_url": "http://m.yelp.com/biz/the-dusty-boot-steakhouse-and-saloon-aurora",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 76,
+              "name": "The Dusty Boot Steakhouse & Saloon",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/-y_ImQUTt8NNzqPdKzejag/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/the-dusty-boot-steakhouse-and-saloon-aurora",
+              "location": {
+                "city": "Aurora",
+                "display_address": [
+                  "16270 E Arapahoe Rd",
+                  "Aurora, CO 80016"
+                ],
+                "postal_code": "80016",
+                "country_code": "US",
+                "address": [
+                  "16270 E Arapahoe Rd"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "3035654200",
+              "snippet_text": "This is a little over due but never to late to call out the buy one get one STEAKS!\n\nI took my colleague there for the national championship a few Monday's...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/oK95t32sISiUORtn3-8dEQ/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ],
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Caterers",
+                  "catering"
+                ]
+              ],
+              "display_phone": "+1-303-565-4200",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "the-dusty-boot-steakhouse-and-saloon-aurora",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 68925.04682608006,
+              "mobile_url": "http://m.yelp.com/biz/teds-montana-grill-colorado-springs",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 97,
+              "name": "Ted's Montana Grill",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/SJ_I8MziA0n2UlqFGe_cfA/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/teds-montana-grill-colorado-springs",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "1685 Briargate Pkwy",
+                  "Colorado Springs, CO 80920"
+                ],
+                "postal_code": "80920",
+                "country_code": "US",
+                "address": [
+                  "1685 Briargate Pkwy"
+                ],
+                "state_code": "CO"
+              },
+              "menu_date_updated": 1387942494,
+              "phone": "7195986195",
+              "snippet_text": "Bison burgers are yay! :D\n\nThe burger was cooked as requested, and the fries were fresh and tasty. The lemonade was super refreshing, too.\n\nThe people here...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/j2A8ZzjMM_a4deN0eK1YpA/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ],
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-598-6195",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "menu_provider": "single_platform",
+              "id": "teds-montana-grill-colorado-springs",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 66713.2727165753,
+              "mobile_url": "http://m.yelp.com/biz/smashburger-colorado-springs-4",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 5,
+              "name": "Smashburger",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/Lnz2jJQHiUoRoUwwqdYpKw/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/smashburger-colorado-springs-4",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "3604 Austin Bluffs Pkwy",
+                  "Unit 140",
+                  "Colorado Springs, CO 80918"
+                ],
+                "postal_code": "80918",
+                "country_code": "US",
+                "address": [
+                  "3604 Austin Bluffs Pkwy",
+                  "Unit 140"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7192661004",
+              "snippet_text": "Best burger I have ever had. Let me put it this way... I am known in my group of friends as the burger guy. My friend Joe always laughs that no matter where...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/a1gMCItS7nHSSrDuKbNe5g/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-719-266-1004",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "id": "smashburger-colorado-springs-4",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 90349.7569683388,
+              "mobile_url": "http://m.yelp.com/biz/champa-st-burger-works-parker",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 32,
+              "name": "Champa St. Burger Works",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/LbYiIIzyD_csRtCw8Vom2Q/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/champa-st-burger-works-parker",
+              "location": {
+                "city": "Parker",
+                "display_address": [
+                  "17501 Lincoln Ave",
+                  "Unit N",
+                  "Parker, CO 80134"
+                ],
+                "postal_code": "80134",
+                "country_code": "US",
+                "address": [
+                  "17501 Lincoln Ave",
+                  "Unit N"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "3037429000",
+              "snippet_text": "Went back for dinner last week.  Had the bison burger which was excellent.  Forget about the fries, the onion rings are the way to go.  They're battered in...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/z2dCUsQVJB6o5NmbJao6aA/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ]
+              ],
+              "display_phone": "+1-303-742-9000",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "champa-st-burger-works-parker",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 85189.55374907568,
+              "mobile_url": "http://m.yelp.com/biz/takoda-tavern-parker",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 29,
+              "name": "Takoda Tavern",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/aX3SENisP0FtMFZoK9L8_g/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/takoda-tavern-parker",
+              "location": {
+                "city": "Parker",
+                "display_address": [
+                  "12311 Pine Bluffs Way",
+                  "Parker, CO 80134"
+                ],
+                "postal_code": "80134",
+                "country_code": "US",
+                "address": [
+                  "12311 Pine Bluffs Way"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7208515302",
+              "snippet_text": "I only wish I had known about this place earlier. Nice, friendly sports bar. Not divey at all. Clean interior, the right mood, cute bartenders. AND were...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/pPAaN9FpckuGL-jdsfd2Uw/ms.jpg",
+              "categories": [
+                [
+                  "Burgers",
+                  "burgers"
+                ],
+                [
+                  "Sports Bars",
+                  "sportsbars"
+                ]
+              ],
+              "display_phone": "+1-720-851-5302",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "takoda-tavern-parker",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 63484.42218320271,
+              "mobile_url": "http://m.yelp.com/biz/culvers-colorado-springs-3",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 18,
+              "name": "Culver's",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/ltQ9g1qiPAFjdRQyCZoRXw/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/culvers-colorado-springs-3",
+              "location": {
+                "city": "Colorado Springs",
+                "display_address": [
+                  "2925 New Center Pt",
+                  "Colorado Springs, CO 80922"
+                ],
+                "postal_code": "80922",
+                "country_code": "US",
+                "address": [
+                  "2925 New Center Pt"
+                ],
+                "state_code": "CO"
+              },
+              "menu_date_updated": 1387684189,
+              "phone": "7195976220",
+              "snippet_text": "We drove thru on our visit and all employees were very pleasant. The food is what it is .... cheese curds are the bomb! Better food than the average drive...",
+              "image_url": "http://s3-media4.ak.yelpcdn.com/bphoto/GF4tnI_4nQZ-RbhX6nus9Q/ms.jpg",
+              "categories": [
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ]
+              ],
+              "display_phone": "+1-719-597-6220",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "menu_provider": "single_platform",
+              "id": "culvers-colorado-springs-3",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Sun, 01 Jun 2014 07:30:52 GMT
+- request:
+    method: get
+    uri: http://api.yelp.com/v2/search?ll=39,-104&term=resturant
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="12-McFqsA6Rb08SCgu3P2A", oauth_nonce="txMNacfTQdTD3SKtACom4NxgQs2NmCNw67nk8hRAE",
+        oauth_signature="Y0YqO17eUDAc6x69WiGlxGWeeyI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1401609594", oauth_token="SO3mGqTDpqnI3IoAfcdEiPV13l3gmY2m",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 01 Jun 2014 07:59:54 GMT
+      Server:
+      - Apache
+      X-Node:
+      - web29, api_com
+      Cache-Control:
+      - private
+      Set-Cookie:
+      - bse=9024c0f3711767b186a3267dde207239; Domain=.yelp.com; Path=/; HttpOnly
+      Content-Length:
+      - '26656'
+      Vary:
+      - User-Agent
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Mode:
+      - rw
+      X-Proxied:
+      - lb2
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+          "region": {
+            "span": {
+              "latitude_delta": 0.30222917999999765,
+              "longitude_delta": 0.6882942000000014
+            },
+            "center": {
+              "latitude": 39.1373769,
+              "longitude": -103.99162
+            }
+          },
+          "total": 17,
+          "businesses": [
+            {
+              "is_claimed": false,
+              "distance": 39297.56047326423,
+              "mobile_url": "http://m.yelp.com/biz/oscars-pub-and-grill-limon",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 19,
+              "name": "Oscar's Pub & Grill",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/SKBQRCrqpYL-GSwPzPwYeQ/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/oscars-pub-and-grill-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "2295 9th St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "2295 9th St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752396",
+              "snippet_text": "We went here because of yelp and we were quite happy we did. Stayed overnight during a trip from LA to Detroit and didn't want more fast food. \n\nOf the many...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/FB2XcJfv27Izv6Kzy-o06g/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ]
+              ],
+              "display_phone": "+1-719-775-2396",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "oscars-pub-and-grill-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 39296.138016583296,
+              "mobile_url": "http://m.yelp.com/biz/jennys-mexican-food-limon",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+              "review_count": 20,
+              "name": "Jenny's Mexican Food",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/j-mkLrxKtOzGAh4ymO9bJg/ms.jpg",
+              "rating": 3.5,
+              "url": "http://www.yelp.com/biz/jennys-mexican-food-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "2275 9th St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "2275 9th St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197758670",
+              "snippet_text": "I was also drawn to Jenny's based on Yelp reviews. I immediately sat down and ordered a salted margarita and was told they didn't serve alcohol. Bummer....",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/8Aec8oZgouslSWqW4LT-IQ/ms.jpg",
+              "categories": [
+                [
+                  "Mexican",
+                  "mexican"
+                ]
+              ],
+              "display_phone": "+1-719-775-8670",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+              "id": "jennys-mexican-food-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39612.86312548182,
+              "mobile_url": "http://m.yelp.com/biz/international-house-of-pancakes-limon",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 5,
+              "name": "International House of Pancakes",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/KkCgBPSMxQ6300wz6z1_dw/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/international-house-of-pancakes-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "2495 William Ave",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "2495 William Ave"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197759032",
+              "snippet_text": "Imagine four weary travelers driving from St. Louis to Boulder, Colorado. We're all jam-packed into my Subaru Forester, along with snowboarding gear and...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/fQUr2-WGRTldnx1Invag6g/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ],
+                [
+                  "Breakfast & Brunch",
+                  "breakfast_brunch"
+                ]
+              ],
+              "display_phone": "+1-719-775-9032",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "international-house-of-pancakes-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39350.68066047504,
+              "mobile_url": "http://m.yelp.com/biz/ta-country-pride-limon",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f64056afac01/ico/stars/v1/stars_1.png",
+              "review_count": 3,
+              "name": "TA Country Pride",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/L6KOjsbtBNVhmjs98LwfNw/ms.jpg",
+              "rating": 1.0,
+              "url": "http://www.yelp.com/biz/ta-country-pride-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "I-70 & Hwy 24, Exit 359",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "I-70 & Hwy 24, Exit 359"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752811",
+              "snippet_text": "A decent number of people were there, and while that's one of my tests of a restaurant to go to, it was a false positive this time.  They have a salad bar...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/cItTkbtGz1N7TaKRo9a0UQ/ms.jpg",
+              "categories": [
+                [
+                  "Diners",
+                  "diners"
+                ]
+              ],
+              "display_phone": "+1-719-775-2811",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/cc5d90a21966/ico/stars/v1/stars_large_1.png",
+              "id": "ta-country-pride-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/74cb12ae7253/ico/stars/v1/stars_small_1.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 40233.55705276338,
+              "mobile_url": "http://m.yelp.com/biz/golden-china-limon",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+              "review_count": 5,
+              "name": "Golden China",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/a59_6UODLWvvCxwlA6JIrQ/ms.jpg",
+              "rating": 4.0,
+              "url": "http://www.yelp.com/biz/golden-china-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "265 Main St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "265 Main St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752068",
+              "snippet_text": "Fantastic food.  Great service.  Lin the owner is a fun hostess.",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/2yxW3PLLjUo-Pmu9XLcPZQ/ms.jpg",
+              "categories": [
+                [
+                  "Chinese",
+                  "chinese"
+                ]
+              ],
+              "display_phone": "+1-719-775-2068",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+              "id": "golden-china-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 17477.087976677238,
+              "mobile_url": "http://m.yelp.com/biz/country-corner-restaurant-simla",
+              "rating_img_url": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+              "review_count": 2,
+              "name": "Country Corner Restaurant",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/5oiMOJy7w7hxzORJhI3lVg/ms.jpg",
+              "rating": 4.5,
+              "url": "http://www.yelp.com/biz/country-corner-restaurant-simla",
+              "location": {
+                "city": "Simla",
+                "display_address": [
+                  "601 Caribou St",
+                  "Simla, CO 80835"
+                ],
+                "postal_code": "80835",
+                "country_code": "US",
+                "address": [
+                  "601 Caribou St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7195412222",
+              "snippet_text": "This place is Great!\nFirst of all, I am from the Seattle area and me and my family are in town to visit my mom's side of the family. We came here the...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/0h9yAHTL7H69z5LbE46OJw/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ]
+              ],
+              "display_phone": "+1-719-541-2222",
+              "rating_img_url_large": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+              "id": "country-corner-restaurant-simla",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 17583.254949160033,
+              "mobile_url": "http://m.yelp.com/biz/hen-house-cafe-simla",
+              "rating_img_url": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+              "review_count": 4,
+              "name": "Hen House Cafe",
+              "snippet_image_url": "http://s3-media2.ak.yelpcdn.com/photo/gY1OhQ6er24psS0aqtoZ7Q/ms.jpg",
+              "rating": 4.5,
+              "url": "http://www.yelp.com/biz/hen-house-cafe-simla",
+              "location": {
+                "city": "Simla",
+                "display_address": [
+                  "401 Caribou St",
+                  "Simla, CO 80835"
+                ],
+                "postal_code": "80835",
+                "country_code": "US",
+                "address": [
+                  "401 Caribou St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7195414944",
+              "snippet_text": "Excellent little diner. I was passing through town and decided to stop in. I was greeted with a warm and genuine smile. The food was great and service...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/MQP_a9ldqjTHaOtU6h89dg/ms.jpg",
+              "categories": [
+                [
+                  "Cafes",
+                  "cafes"
+                ],
+                [
+                  "Bakeries",
+                  "bakeries"
+                ]
+              ],
+              "display_phone": "+1-719-541-4944",
+              "rating_img_url_large": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+              "id": "hen-house-cafe-simla",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39924.37900754616,
+              "mobile_url": "http://m.yelp.com/biz/south-side-food-and-drink-limon",
+              "rating_img_url": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/b561c24f8341/ico/stars/v1/stars_2.png",
+              "review_count": 5,
+              "name": "South Side Food & Drink",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/r9OD45I8l6DfDW7w-JWqUw/ms.jpg",
+              "rating": 2.0,
+              "url": "http://www.yelp.com/biz/south-side-food-and-drink-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "680 Main St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "680 Main St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197759593",
+              "snippet_text": "We stumbled on this place by asking where the locals hang out.  The food was fine.  We didn't order anything but salad and an app.   The salad bar was good....",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ]
+              ],
+              "display_phone": "+1-719-775-9593",
+              "rating_img_url_large": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c00926ee5dcb/ico/stars/v1/stars_large_2.png",
+              "id": "south-side-food-and-drink-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/a6210baec261/ico/stars/v1/stars_small_2.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39655.797476278894,
+              "mobile_url": "http://m.yelp.com/biz/rubys-limon",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 4,
+              "name": "Ruby's",
+              "snippet_image_url": "http://s3-media2.ak.yelpcdn.com/photo/wtOQ3gksE_Fmb1T7kPWwsA/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/rubys-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "197 E Ave",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "197 E Ave"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197759565",
+              "snippet_text": "This was a very clean restaurant where we stopped for breakfast on our way to Sturgis.  The food was good and the prices were reasonable.  Service was quick...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/ifwd_GLVsmQCyvJJnW1ARg/ms.jpg",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ]
+              ],
+              "display_phone": "+1-719-775-9565",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "rubys-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 40292.074511763894,
+              "mobile_url": "http://m.yelp.com/biz/pizza-hut-limon",
+              "rating_img_url": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/b561c24f8341/ico/stars/v1/stars_2.png",
+              "review_count": 5,
+              "name": "Pizza Hut",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/cc4afe21892e/default_avatars/user_medium_square.png",
+              "rating": 2.0,
+              "url": "http://www.yelp.com/biz/pizza-hut-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "220 Main St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "220 Main St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752844",
+              "snippet_text": "First off - the 220 Main St address does not map correctly in Google.  The actual location is about two blocks east of Google/yelp's location and on the...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/16WcaPOuogxV222dIqVKjA/ms.jpg",
+              "categories": [
+                [
+                  "Pizza",
+                  "pizza"
+                ]
+              ],
+              "display_phone": "+1-719-775-2844",
+              "rating_img_url_large": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c00926ee5dcb/ico/stars/v1/stars_large_2.png",
+              "id": "pizza-hut-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/a6210baec261/ico/stars/v1/stars_small_2.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39186.83368592549,
+              "mobile_url": "http://m.yelp.com/biz/arbys-limon",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c7fb9aff59f9/ico/stars/v1/stars_2_half.png",
+              "review_count": 4,
+              "name": "Arby's",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/AfG6DfLeqFkT032c75ztvg/ms.jpg",
+              "rating": 2.5,
+              "url": "http://www.yelp.com/biz/arbys-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "2221 6",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "2221 6"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752024",
+              "snippet_text": "Really nice service and clean.\n\nThere are not a whole lot of places to choose from in Limon, Colorado, but Arby's is one of the better places. Sure the food...",
+              "categories": [
+                [
+                  "Restaurants",
+                  "restaurants"
+                ]
+              ],
+              "display_phone": "+1-719-775-2024",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/d63e3add9901/ico/stars/v1/stars_large_2_half.png",
+              "id": "arbys-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/8e8633e5f8f0/ico/stars/v1/stars_small_2_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39042.17503852813,
+              "mobile_url": "http://m.yelp.com/biz/dennys-limon",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/11e62fee886f/ico/stars/v1/stars_1_half.png",
+              "review_count": 4,
+              "name": "Denny's",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/vfZVQYu0zvZ_f1A_UstwWA/ms.jpg",
+              "rating": 1.5,
+              "url": "http://www.yelp.com/biz/dennys-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "2455 6th St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "2455 6th St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197759200",
+              "snippet_text": "Roadside diner, basically. 2.25 stars (I have my own system - deal with it). But can it be healthful to eat here? Hmmm, let's see...\n\nCertainly it's not the...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/ymTY45cjvoFB8apK1ltbSA/ms.jpg",
+              "categories": [
+                [
+                  "Diners",
+                  "diners"
+                ]
+              ],
+              "display_phone": "+1-719-775-9200",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/4b88f27b8b84/ico/stars/v1/stars_large_1_half.png",
+              "id": "dennys-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/edfabe6dfcec/ico/stars/v1/stars_small_1_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 26599.205282938394,
+              "mobile_url": "http://m.yelp.com/biz/roosters-grille-and-pizzaria-calhan",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+              "review_count": 2,
+              "name": "Rooster's Grille & Pizzaria",
+              "snippet_image_url": "http://s3-media3.ak.yelpcdn.com/photo/ueIGh8x9Mt62QBxAjS_U2w/ms.jpg",
+              "rating": 5.0,
+              "url": "http://www.yelp.com/biz/roosters-grille-and-pizzaria-calhan",
+              "location": {
+                "city": "Calhan",
+                "display_address": [
+                  "1000 5th St",
+                  "Calhan, CO 80808"
+                ],
+                "postal_code": "80808",
+                "country_code": "US",
+                "address": [
+                  "1000 5th St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7193473280",
+              "snippet_text": "Great service! The wings are awesome! Great pizza.  Must check them out.",
+              "categories": [
+                [
+                  "American (Traditional)",
+                  "tradamerican"
+                ],
+                [
+                  "Pizza",
+                  "pizza"
+                ]
+              ],
+              "display_phone": "+1-719-347-3280",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+              "id": "roosters-grille-and-pizzaria-calhan",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png"
+            },
+            {
+              "is_claimed": true,
+              "distance": 26266.629568742188,
+              "mobile_url": "http://m.yelp.com/biz/the-hearthstone-kitchen-calhan",
+              "rating_img_url": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+              "review_count": 2,
+              "name": "The Hearthstone Kitchen",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/0HPDRy7lHCsU4aRsc6j36A/ms.jpg",
+              "rating": 3.0,
+              "url": "http://www.yelp.com/biz/the-hearthstone-kitchen-calhan",
+              "location": {
+                "city": "Calhan",
+                "display_address": [
+                  "520 Colorado Ave",
+                  "Calhan, CO 80808"
+                ],
+                "postal_code": "80808",
+                "country_code": "US",
+                "address": [
+                  "520 Colorado Ave"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7193472490",
+              "snippet_text": "Good breakfast and lunch place. Clean, friendly, simple chicken decor. We had two great half pound burgers (mushroom swiss, and patty melt). Fresh...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/uJFmKykFjQEbcZlgAn-Gkw/ms.jpg",
+              "categories": [
+                [
+                  "Restaurants",
+                  "restaurants"
+                ]
+              ],
+              "display_phone": "+1-719-347-2490",
+              "rating_img_url_large": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+              "id": "the-hearthstone-kitchen-calhan",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39789.83664935352,
+              "mobile_url": "http://m.yelp.com/biz/mcdonalds-limon-2",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c7fb9aff59f9/ico/stars/v1/stars_2_half.png",
+              "review_count": 4,
+              "name": "McDonald's",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/l4TVSRc_y2rdt5_VSuN0ng/ms.jpg",
+              "rating": 2.5,
+              "url": "http://www.yelp.com/biz/mcdonalds-limon-2",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "837 Hwy 24",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "837 Hwy 24"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752782",
+              "snippet_text": "Okay, plus points for interesting diaspora of middle america with the Mexican laborers, the amish teen siblings) and the gross suburb male teens talking...",
+              "image_url": "http://s3-media2.ak.yelpcdn.com/bphoto/0JhJLNZUpGYBbPwFUJhMjA/ms.jpg",
+              "categories": [
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ]
+              ],
+              "display_phone": "+1-719-775-2782",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/d63e3add9901/ico/stars/v1/stars_large_2_half.png",
+              "id": "mcdonalds-limon-2",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/8e8633e5f8f0/ico/stars/v1/stars_small_2_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 40169.28811246349,
+              "mobile_url": "http://m.yelp.com/biz/wendys-limon",
+              "rating_img_url": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/c7fb9aff59f9/ico/stars/v1/stars_2_half.png",
+              "review_count": 3,
+              "name": "Wendy's",
+              "snippet_image_url": "http://s3-media4.ak.yelpcdn.com/photo/_GNdg9v9ia7N1s8ymNHT6w/ms.jpg",
+              "rating": 2.5,
+              "url": "http://www.yelp.com/biz/wendys-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "350 Main St",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "350 Main St"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752505",
+              "snippet_text": "Have to agree with the first reviewer's comments about the staff. They just don't seem to want to be there at all. \n\nAnd it does just have kind of a blah...",
+              "image_url": "http://s3-media3.ak.yelpcdn.com/bphoto/SvKucQ_VfGeEESMohx4RNQ/ms.jpg",
+              "categories": [
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ]
+              ],
+              "display_phone": "+1-719-775-2505",
+              "rating_img_url_large": "http://s3-media2.ak.yelpcdn.com/assets/2/www/img/d63e3add9901/ico/stars/v1/stars_large_2_half.png",
+              "id": "wendys-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media4.ak.yelpcdn.com/assets/2/www/img/8e8633e5f8f0/ico/stars/v1/stars_small_2_half.png"
+            },
+            {
+              "is_claimed": false,
+              "distance": 39465.41288657771,
+              "mobile_url": "http://m.yelp.com/biz/travelcenters-of-america-limon",
+              "rating_img_url": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/f64056afac01/ico/stars/v1/stars_1.png",
+              "review_count": 1,
+              "name": "TravelCenters of America",
+              "snippet_image_url": "http://s3-media1.ak.yelpcdn.com/photo/8AuQeDFd8ukghEQRfxJ4pg/ms.jpg",
+              "rating": 1.0,
+              "url": "http://www.yelp.com/biz/travelcenters-of-america-limon",
+              "location": {
+                "city": "Limon",
+                "display_address": [
+                  "I-70 & Hwy 24",
+                  "Exit 359",
+                  "Limon, CO 80828"
+                ],
+                "postal_code": "80828",
+                "country_code": "US",
+                "address": [
+                  "I-70 & Hwy 24",
+                  "Exit 359"
+                ],
+                "state_code": "CO"
+              },
+              "phone": "7197752811",
+              "snippet_text": "Really poor design. As a travel center you expect to get in and out easily, unfortunately the entryways are so full of pot holes you seriously could mess up...",
+              "categories": [
+                [
+                  "Gas & Service Stations",
+                  "servicestations"
+                ],
+                [
+                  "Fast Food",
+                  "hotdogs"
+                ]
+              ],
+              "display_phone": "+1-719-775-2811",
+              "rating_img_url_large": "http://s3-media3.ak.yelpcdn.com/assets/2/www/img/cc5d90a21966/ico/stars/v1/stars_large_1.png",
+              "id": "travelcenters-of-america-limon",
+              "is_closed": false,
+              "rating_img_url_small": "http://s3-media1.ak.yelpcdn.com/assets/2/www/img/74cb12ae7253/ico/stars/v1/stars_small_1.png"
+            }
+          ]
+        }
+    http_version: 
+  recorded_at: Sun, 01 Jun 2014 07:59:54 GMT
+recorded_with: VCR 2.9.2
