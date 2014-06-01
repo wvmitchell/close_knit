@@ -4,7 +4,6 @@
   <title>Map</title>
 
   <link rel="stylesheet" href="http://js.arcgis.com/3.9/js/esri/css/esri.css">
-  <link rel="stylesheet" href="http://js.arcgis.com/3.9/js/dojo/dijit/themes/tundra/tundra.css">
 
   <style>
     html, body, #mapDiv {
@@ -36,19 +35,32 @@
         "esri/symbols/SimpleFillSymbol", "esri/symbols/SimpleLineSymbol", 
         "esri/renderers/SimpleRenderer", "esri/graphic", "esri/lang",
         "esri/Color", "dojo/number", "dojo/dom-style", 
-        "dijit/TooltipDialog", "dijit/popup", "dojo/domReady!"
+        "dijit/TooltipDialog", "dijit/popup", "dojo/domReady!", 'esri/symbols/PictureMarkerSymbol',
+        'esri/symbols/PictureMarkerSymbol', 'esri/symbols/SimpleMarkerSymbol'
         ], function(Map, FeatureLayer,
           SimpleFillSymbol, SimpleLineSymbol,
           SimpleRenderer, Graphic, esriLang,
           Color, number, domStyle, 
-          TooltipDialog, dijitPopup
+          TooltipDialog, dijitPopup, SimpleMarkerSymbol,
+          SimplePictureSymbol, PictureMarkerSymbol
           ) {
 
           map = new Map("mapDiv", {
-            center: [-104.98, 39.73],
+            center: [-104.95282, 39.7223],
             zoom: 12,
             basemap: "gray"
           });
+
+          map.on('load', function(){
+            map.disablePan();
+            map.disableMapNavigation();
+          });
+
+          var crime_scores = JSON.parse($.ajax({
+            url:  'scores',
+            dataType: "json", 
+            async: false
+          }).responseText);
 
           var featureLayer = new FeatureLayer("http://services2.arcgis.com/p0ZMctqs29zvLCpq/arcgis/rest/services/statistical_neighborhoods/FeatureServer/0", {
             mode: FeatureLayer.MODE_SNAPSHOT,
@@ -61,69 +73,87 @@
             SimpleFillSymbol.STYLE_SOLID, 
             new SimpleLineSymbol(
               SimpleLineSymbol.STYLE_SOLID, 
-              // new Color([255,255,255,0.35]), 
-              new Color([56,61,63,1]), 
+              new Color([225,106,99,0]),
               1
               ),
-            new Color([199,200,196,0.25])
+            new Color([225,106,99,0.20])
             );
           featureLayer.setRenderer(new SimpleRenderer(symbol));
           map.addLayer(featureLayer);
 
           map.infoWindow.resize(245,125);
 
-          dialog = new TooltipDialog({
-            id: "tooltipDialog",
-            style: "position: absolute; width: 250px; font: normal normal normal 10pt Helvetica;z-index:100"
-          });
-          dialog.startup();
-
           var highlightSymbol = new SimpleFillSymbol(
             SimpleFillSymbol.STYLE_SOLID, 
             new SimpleLineSymbol(
               SimpleLineSymbol.STYLE_SOLID, 
-              new Color([255,0,0,0]), 3
+              new Color([255,106,99]), 1
               ), 
-            new Color([125,125,125,0.35])
+            new Color([256, 256, 256, 1])
             );
+
+          var pic = new PictureMarkerSymbol("/assets/picture_market.png", 25, 25)
 
             //close the dialog when the mouse leaves the highlight graphic
             map.on("load", function(){
               map.graphics.enableMouseEvents();
-              map.graphics.on("mouse-out", closeDialog);
-
             });
 
             featureLayer.on("mouse-over", function(evt){
-              $.get("scores", function(data){
-                var t = "${NBHD_NAME}"
-  
-                var content = esriLang.substitute(evt.graphic.attributes,t);
-                var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
-  
-                map.graphics.add(highlightGraphic);
-  
-                dialog.setContent(data);
-  
-  
-                domStyle.set(dialog.domNode, "opacity", 0.85);
-                dijitPopup.open({
-                  popup: dialog, 
-                  x: evt.pageX,
-                  y: evt.pageY
-                });
-              })
+              //var content = esriLang.substitute(evt.graphic.attributes,t);
+              //var icon = new Graphic(evt.mapPoint, pic);
+              //map.graphics.add(icon);
             });
+
+            featureLayer.on("mouse-out", function(){
+              map.graphics.clear();
+            });
+
+            featureLayer.on("mouse-down", function(evt){
+              var t = "${NBHD_NAME}"
+              var hood = esriLang.substitute(evt.graphic.attributes,t);
+              var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
+              map.graphics.add(highlightGraphic);
+              var crime_score = crime_scores[hood.toLowerCase()]
+              if(typeof(crime_score) == 'undefined'){
+                crime_score = 67;
+              }
+              var crime_bar = crime_score * 3
+              var content =  '<span class="n_name">'+ hood + '</span>'+
+                            '<img src="/assets/tool_tip.png" class="tool_tip">'+
+                            '<span class="lg">Accessibility</span>'+
+                            '<span class="dg">Music &amp; Culture</span>'+
+                            '<span class="lg lg2">Crime</span>'+
+                            '<img src="/assets/table_overlay.png" class="table_overlay">'+
+                            '<img src="/assets/n_icon.png" class="n_icon">'+
+                            '<!-- table data -->'+
+                            '<div class="table">'+
+                            '<span class="bar value_col"><span class="bar_shadow"></span></span>'+
+                            '<span class="bar value_mac"><span class="bar_shadow"></span></span>'+
+                            '<span class="bar value_acc"><span class="bar_shadow"></span></span>'+
+                            '</div>'+
+                            '<span class="circle circle_col">89</span>'+
+                            '<span class="circle circle_mac">78</span>'+
+                            '<span class="circle circle_acc">'+ crime_score +'</span>'
+                  $('.n_stats').css('left', (evt.pageX));
+                  $('.n_stats').css('top', (evt.pageY));
+                  $('.n_stats').html(content);
+                  $('.value_col').css('width', (crime_bar + 'px'));
+              });
 
             function closeDialog() {
               map.graphics.clear();
               dijitPopup.close(dialog);
             }
           });
+
     });
   </script>
 </head>
 
 <body class="tundra">
-  <div id="mapDiv">Hover over a neighborhood to get more information</div>
+  <div id="mapDiv">
+    <div class='n_stats'>
+    </div>
+  </div>
 </body>

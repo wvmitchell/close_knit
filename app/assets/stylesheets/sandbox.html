@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="sandbox.css" type="text/css" />
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+
+</head>
+
+<body onload="setGraphs()">
+	
+
+	<div id="logo_box">
+		<div class="top_space">
+			<h1 style="margin-top: 10px">Close</h1>
+			<h1 style="margin-top: 4px">Knit</h1>
+		</div>
+
+		<hr width="50%">
+
+		<div style="width: 140px; margin: -15px auto 0 auto; display: block; " class="top_space">
+		<p>Hover over neighborhood markers to reveal name, boundary, and a synoptical evaluation, yo.
+		</p>
+		</div>
+	</div>
+		
+		<div id="baker" class="n_stats">
+			<!-- table headers -->
+			<span class="n_name">Baker</span>
+			<img src="images/tool_tip.png" class="tool_tip">
+			<span class="lg">Accessibility</span>
+			<span class="dg">Music &amp; Culture</span>
+			<span class="lg lg2">Cost of Living</span>
+			<img src="images/table_overlay.png" class="table_overlay">
+			<img src="images/n_icon.png" class="n_icon">
+			<!-- table data -->
+			<div class="table">
+				<span class="bar value_col"><span class="bar_shadow"></span></span>		
+				<span class="bar value_mac"><span class="bar_shadow"></span></span>		
+				<span class="bar value_acc"><span class="bar_shadow"></span></span>		
+			</div>
+			<span class="circle circle_col">84</span>
+			<span class="circle circle_mac">78</span>
+			<span class="circle circle_acc">93</span>
+		</div>
+
+		<div id="speer" class="n_stats">
+			<!-- table headers -->
+			<span class="n_name">Speer</span>
+			<img src="images/tool_tip.png" class="tool_tip">
+			<span class="lg">Accessibility</span>
+			<span class="dg">Music &amp; Culture</span>
+			<span class="lg lg2">Cost of Living</span>
+			<img src="images/n_icon.png" class="n_icon">
+			<!-- table data -->
+			<div class="table">
+				<span class="bar value_col"><span class="bar_shadow"></span></span>		
+				<span class="bar value_mac"><span class="bar_shadow"></span></span>		
+				<span class="bar value_acc"><span class="bar_shadow"></span></span>
+			</div>
+			<span class="circle circle_col">84</span>
+			<span class="circle circle_mac">78</span>
+			<span class="circle circle_acc">93</span>
+		</div>
+
+
+<!--	
+ <script>
+	function setGraphs() {
+		var baker_col = prompt("What is the Cost of Living in Baker? (1-100)");
+		var baker_mac = prompt("What is the Music & Culture score of Baker? (1-100)");
+		var baker_acc = prompt("What is the Accessibility score of Baker? (1-100)");
+		var bc = baker_col * 3; 
+		var bm = baker_mac * 3;
+		var ba = baker_acc * 3;
+		$("#baker .value_col").css('width', bc);
+		$("#baker .value_mac").css('width', bm);
+		$("#baker .value_acc").css('width', ba);
+		$("#baker .circle_col").html(bc/3);
+		$("#baker .circle_mac").html(bm/3);
+		$("#baker .circle_acc").html(ba/3);
+
+		var speer_col = prompt("What is the Cost of Living in Speer? (1-100)");
+		var speer_mac = prompt("What is the Music & Culture score of Speer? (1-100)");
+		var speer_acc = prompt("What is the Accessibility score of Speer? (1-100)");
+		var sc = speer_col * 3; 
+		var sm = speer_mac * 3;
+		var sa = speer_acc * 3;
+		$("#speer .value_col").css('width', sc);
+		$("#speer .value_mac").css('width', sm);
+		$("#speer .value_acc").css('width', s a);
+		$("#speer .circle_col").html(sc/3);
+		$("#speer .circle_mac").html(sm/3);
+		$("#speer .circle_acc").html(sa/3);
+	};
+
+</script> -->
+</body>
+
+
+</html>
