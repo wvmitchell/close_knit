@@ -33,6 +33,7 @@ gem 'spring',        group: :development
 
 gem 'geocoder'
 gem 'pg'
+gem 'yelpster'
 
 group :development do
   gem 'pry'
@@ -45,4 +46,6 @@ group :test do
   gem 'rspec-rails'
   gem 'shoulda-matchers'
   gem 'factory_girl_rails'
+  gem 'webmock'
+  gem 'vcr'
 end
