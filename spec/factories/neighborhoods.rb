@@ -2,5 +2,8 @@
 
 FactoryGirl.define do
   factory :neighborhood do
+    lat 30
+    lng (-150)
+    name 'Somewhere'
   end
 end
