@@ -1,33 +1,5 @@
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>Map</title>
-
-  <link rel="stylesheet" href="http://js.arcgis.com/3.9/js/esri/css/esri.css">
-
-  <style>
-    html, body, #mapDiv {
-      padding:0;
-      margin:0;
-      height:100%;
-    }
-    #mapDiv {
-      position: relative;
-    }
-    #info {
-      background: #fff;
-      box-shadow: 0 0 5px #888;
-      left: 1em;
-      padding: 0.5em;
-      position: absolute;
-      top: 1em;
-      z-index: 40;
-    }
-  </style>
-
-  <script src="http://js.arcgis.com/3.9/"></script>
-
-  <script>
+<body class="tundra">
+<script>
     require(["esri/map"], function(Map) {
       var map, dialog;
       require([
@@ -149,9 +121,6 @@
 
     });
   </script>
-</head>
-
-<body class="tundra">
   <div id="mapDiv">
     <div class='n_stats'>
     </div>

@@ -1,0 +1,461 @@
+/* dark grey : #383d3f; */
+/* reset */
+/* line 5, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* line 6, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+body {
+  line-height: 1;
+  text-align: left;
+}
+
+/* line 7, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 8, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+blockquote, q {
+  quotes: none;
+}
+
+/* line 9, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+/* line 10, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 11, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+ins {
+  text-decoration: none;
+}
+
+/* line 12, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+del {
+  text-decoration: line-through;
+}
+
+/* line 13, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@font-face {
+  font-family: 'nerislight';
+  src: url("fonts/Neris-Light-webfont.eot");
+  src: url("fonts/Neris-Light-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Neris-Light-webfont.woff") format("woff"), url("fonts/Neris-Light-webfont.ttf") format("truetype"), url("fonts/Neris-Light-webfont.svg#nerislight") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nerissemibold';
+  src: url("fonts/Neris-SemiBold-webfont.eot");
+  src: url("fonts/Neris-SemiBold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Neris-SemiBold-webfont.woff") format("woff"), url("fonts/Neris-SemiBold-webfont.ttf") format("truetype"), url("fonts/Neris-SemiBold-webfont.svg#nerissemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'neristhin';
+  src: url("fonts/Neris-Thin-webfont.eot");
+  src: url("fonts/Neris-Thin-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/Neris-Thin-webfont.woff") format("woff"), url("fonts/Neris-Thin-webfont.ttf") format("truetype"), url("fonts/Neris-Thin-webfont.svg#nerissemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 50, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+html {
+  font-family: sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+/* line 54, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+body {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 57, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+h1 {
+  color: white;
+  font-size: 15pt;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  text-align: center;
+}
+
+/* line 62, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+hr {
+  border-color: #50585a;
+}
+
+/* line 63, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+p {
+  font-family: 'nerissemibold', Georgia, sans-serif;
+  color: #c7c8c4;
+  font-size: 9pt;
+  line-height: 1.3em;
+}
+
+/* LOGO AND DIRECITON AREA */
+/* line 69, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div#logo_box {
+  width: 242px;
+  height: 282px;
+  margin-top: 20px;
+  margin-left: 20px;
+  background-color: #383d3f;
+}
+
+/* line 77, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+.top_space {
+  padding: 40px 0;
+}
+
+/* STAT DISPLAY  */
+/* line 80, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats {
+  width: 25px;
+  height: 25px;
+}
+
+/* line 85, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats {
+  position: absolute;
+  cursor: pointer;
+  z-index: 100;
+}
+
+/*location of individual icons */
+/* line 92, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div#baker {
+  position: relative;
+  top: 120px;
+  left: 700px;
+}
+
+/* line 96, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div#speer {
+  position: relative;
+  top: 80px;
+  left: 600px;
+}
+
+/* icon is visible pre hover */
+/* line 103, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+img.n_icon {
+  position: absolute;
+  top: -20px;
+}
+
+/* line 108, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+img.table_overlay {
+  position: absolute;
+  top: -175px;
+  left: 95px;
+  opacity: 0;
+  height: 108px;
+  z-index: 99;
+}
+
+/* description of table headers */
+/* line 118, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.n_name, span.dg, span.lg {
+  display: block;
+  width: 120px;
+  padding: 12px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: 'nerissemibold', sans-serif;
+  font-size: 10pt;
+  text-align: center;
+  left: -65px;
+}
+
+/* line 129, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.n_name {
+  top: -64px;
+  position: absolute;
+  background-color: #e16a63;
+  font-size: 12pt;
+}
+
+/* line 134, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+img.tool_tip {
+  position: absolute;
+  top: -50px;
+  left: -48px;
+  opacity: 0;
+}
+
+/* line 139, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.lg, span.dg {
+  position: absolute;
+}
+
+/* line 140, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.lg {
+  top: -101px;
+  background-color: #c7c8c4;
+}
+
+/* line 143, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.dg {
+  top: -138px;
+  background-color: #babab7;
+}
+
+/* line 146, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.lg2 {
+  top: -175px;
+}
+
+/* make the unfolding table headers visible */
+/* line 149, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.dg, span.lg, span.n_name {
+  -webkit-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: perspective(350px) rotateX(-90deg);
+  -o-transform: perspective(350px) rotateX(-90deg);
+  transform: perspective(350px) rotateX(-90deg);
+}
+
+/* line 158, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.dg, div.n_stats:hover span.lg, div.n_stats:hover span.n_name {
+  -webkit-transform: perspective(350px) rotateX(0deg);
+  -o-transform: perspective(350px) rotateX(0deg);
+  transform: perspective(350px) rotateX(0deg);
+  -webkit-transition: .5s ease 0s;
+  -o-transition: .5s ease 0s;
+  transition: .5s ease 0s;
+}
+
+/* line 167, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover img.tool_tip {
+  opacity: 1;
+  top: -40px;
+  -webkit-transition: .5s ease 0s;
+  -o-transition: .5s ease 0s;
+  transition: .5s ease 0s;
+}
+
+/* line 175, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.lg {
+  webkit-transition-delay: .2s;
+  o-transition-delay: .2s;
+  transition-delay: .2s;
+}
+
+/* line 181, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.dg {
+  webkit-transition-delay: .7s;
+  o-transition-delay: .7s;
+  transition-delay: .7s;
+}
+
+/* line 187, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.lg2 {
+  webkit-transition-delay: 1.2s;
+  o-transition-delay: 1.2s;
+  transition-delay: 1.2s;
+}
+
+/* show the full table (and its overlays) (slide in from left, make opaque) */
+/* line 195, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.table {
+  width: 300px;
+  position: relative;
+  top: -175px;
+  background: #c7c8c4 url("images/table_underlay.png") no-repeat fixed right top;
+  height: 112px;
+  left: 145px;
+  opacity: 0;
+  overflow: hidden;
+  z-index: 85;
+}
+
+/* line 207, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover div.table, div.n_stats:hover img.table_overlay {
+  opacity: 1;
+  left: 95px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+  webkit-transition-delay: 1.5s;
+  -o-transition-delay: 1.5s;
+  transition-delay: 1.5s;
+}
+
+/* line 218, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover img.table_overlay {
+  -webkit-transition: all 1.5s ease-in;
+  -o-transition: all 1.5s ease-in;
+  transition: all 1.5s ease-in;
+  webkit-transition-delay: 2.3s;
+  o-transition-delay: 2.3s;
+  transition-delay: 2.3s;
+}
+
+/* make value bars slide right from within the table */
+/* line 229, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.bar {
+  background-color: #e16a63;
+  height: 35px;
+  position: absolute;
+  display: block;
+}
+
+/* line 236, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.bar_shadow {
+  height: inherit;
+  position: absolute;
+  right: 0;
+  width: 14px;
+  display: block;
+  background-color: #ce625b;
+}
+
+/* line 245, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.value_col {
+  left: 0px;
+  width: 220px;
+  top: 0px;
+}
+
+/* line 251, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.value_mac {
+  left: -300px;
+  width: 120px;
+  top: 37px;
+}
+
+/* line 257, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.value_acc {
+  left: -300px;
+  width: 270px;
+  top: 74px;
+}
+
+/* line 263, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.bar {
+  left: 0px;
+  -webkit-transition: all .5s ease;
+  -o-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+/* line 270, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.value_col {
+  webkit-transition-delay: 2.1s;
+  -o-transition-delay: 2.1s;
+  transition-delay: 2.1s;
+}
+
+/* line 276, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.value_mac {
+  webkit-transition-delay: 2.3s;
+  -o-transition-delay: 2.3s;
+  transition-delay: 2.3s;
+}
+
+/* line 282, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.value_acc {
+  webkit-transition-delay: 2.5s;
+  -o-transition-delay: 2.5s;
+  transition-delay: 2.5s;
+}
+
+/* make stat appear in turquoise circle after bars have graphed out */
+/* line 290, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.circle {
+  height: 22px;
+  width: 22px;
+  background-color: #75c3bc;
+  border-radius: 50%;
+  color: white;
+  font-family: 'nerissemibold', sans-serif;
+  position: absolute;
+  left: 435px;
+  opacity: 0;
+  font-size: 10pt;
+  padding: 8px 5px 2px 5px;
+  text-align: center;
+}
+
+/* line 305, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.circle_col {
+  top: -101px;
+}
+
+/* line 306, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.circle_mac {
+  top: -138px;
+}
+
+/* line 307, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+span.circle_acc {
+  top: -175px;
+}
+
+/* line 309, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.circle {
+  opacity: 1;
+  left: 410px;
+  -webkit-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+/* line 317, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.circle_col {
+  webkit-transition-delay: 3.0s;
+  -o-transition-delay: 3.0s;
+  transition-delay: 3.0s;
+}
+
+/* line 323, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.circle_mac {
+  webkit-transition-delay: 2.8s;
+  -o-transition-delay: 2.8s;
+  transition-delay: 2.8s;
+}
+
+/* line 329, /Users/wvmitchell/Dropbox/close_knit/close_knit/app/assets/stylesheets/map.css.scss */
+div.n_stats:hover span.circle_acc {
+  webkit-transition-delay: 2.6s;
+  -o-transition-delay: 2.6s;
+  transition-delay: 2.6s;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
