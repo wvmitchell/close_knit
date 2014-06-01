@@ -4,33 +4,121 @@
   <title>Map</title>
 
   <link rel="stylesheet" href="http://js.arcgis.com/3.9/js/esri/css/esri.css">
+  <link rel="stylesheet" href="http://js.arcgis.com/3.9/js/dojo/dijit/themes/tundra/tundra.css">
+
+  <style>
+    html, body, #mapDiv {
+      padding:0;
+      margin:0;
+      height:100%;
+    }
+    #mapDiv {
+      position: relative;
+    }
+    #info {
+      background: #fff;
+      box-shadow: 0 0 5px #888;
+      left: 1em;
+      padding: 0.5em;
+      position: absolute;
+      top: 1em;
+      z-index: 40;
+    }
+  </style>
+
   <script src="http://js.arcgis.com/3.9/"></script>
 
   <script>
     require(["esri/map"], function(Map) {
-      var map;
-      require(["esri/map", "esri/layers/FeatureLayer", "dojo/domReady!"], function(Map, FeatureLayer) { 
-        map = new Map("mapDiv", {
-          center: [-104.98, 39.73],
-          zoom: 12,
-          basemap: "streets"
-        });
-        var featureLayer = new FeatureLayer("http://services2.arcgis.com/p0ZMctqs29zvLCpq/arcgis/rest/services/statistical_neighborhoods/FeatureServer/0")
-        map.addLayer(featureLayer);
-      });
+      var map, dialog;
+      require([
+        "esri/map", "esri/layers/FeatureLayer",
+        "esri/symbols/SimpleFillSymbol", "esri/symbols/SimpleLineSymbol", 
+        "esri/renderers/SimpleRenderer", "esri/graphic", "esri/lang",
+        "esri/Color", "dojo/number", "dojo/dom-style", 
+        "dijit/TooltipDialog", "dijit/popup", "dojo/domReady!"
+        ], function(Map, FeatureLayer,
+          SimpleFillSymbol, SimpleLineSymbol,
+          SimpleRenderer, Graphic, esriLang,
+          Color, number, domStyle, 
+          TooltipDialog, dijitPopup
+          ) {
+
+          map = new Map("mapDiv", {
+            center: [-104.98, 39.73],
+            zoom: 12,
+            basemap: "streets"
+          });
+
+          var featureLayer = new FeatureLayer("http://services2.arcgis.com/p0ZMctqs29zvLCpq/arcgis/rest/services/statistical_neighborhoods/FeatureServer/0", {
+            mode: FeatureLayer.MODE_SNAPSHOT,
+            outFields: ["*"]
+          });
+
+          featureLayer.setDefinitionExpression("");
+
+          var symbol = new SimpleFillSymbol(
+            SimpleFillSymbol.STYLE_SOLID, 
+            new SimpleLineSymbol(
+              SimpleLineSymbol.STYLE_SOLID, 
+              new Color([255,255,255,0.35]), 
+              1
+              ),
+            new Color([125,125,125,0.35])
+            );
+          featureLayer.setRenderer(new SimpleRenderer(symbol));
+          map.addLayer(featureLayer);
+
+          map.infoWindow.resize(245,125);
+
+          dialog = new TooltipDialog({
+            id: "tooltipDialog",
+            style: "position: absolute; width: 250px; font: normal normal normal 10pt Helvetica;z-index:100"
+          });
+          dialog.startup();
+
+          var highlightSymbol = new SimpleFillSymbol(
+            SimpleFillSymbol.STYLE_SOLID, 
+            new SimpleLineSymbol(
+              SimpleLineSymbol.STYLE_SOLID, 
+              new Color([255,0,0]), 3
+              ), 
+            new Color([125,125,125,0.35])
+            );
+
+            //close the dialog when the mouse leaves the highlight graphic
+            map.on("load", function(){
+              map.graphics.enableMouseEvents();
+              map.graphics.on("mouse-out", closeDialog);
+
+            });
+
+            featureLayer.on("mouse-over", function(evt){
+              var t = "${NBHD_NAME}"
+
+              var content = esriLang.substitute(evt.graphic.attributes,t);
+              var highlightGraphic = new Graphic(evt.graphic.geometry,highlightSymbol);
+              map.graphics.add(highlightGraphic);
+
+              dialog.setContent(content);
+
+              domStyle.set(dialog.domNode, "opacity", 0.85);
+              dijitPopup.open({
+                popup: dialog, 
+                x: evt.pageX,
+                y: evt.pageY
+              });
+            });
+
+            function closeDialog() {
+              map.graphics.clear();
+              dijitPopup.close(dialog);
+            }
+          });
     });
   </script>
-
-  <style>
-    html, body, #mapDiv {
-      padding: 0;
-      margin: 0;
-      height: 100%;
-    }
-  </style>
-
 </head>
 
-<body class="claro">
-  <div id="mapDiv"></div>
+<body class="tundra">
+  <div id="mapDiv">Hover over a neighborhood to get more information</div>
 </body>
