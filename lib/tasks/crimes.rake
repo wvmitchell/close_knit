@@ -1,5 +1,3 @@
-require 'csv'
-
 namespace :crime do
   desc 'load crimes from a csv'
   task :load_crimes => :environment do
