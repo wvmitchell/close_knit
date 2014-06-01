@@ -3,6 +3,6 @@ class MapController < ApplicationController
   end
 
   def get_scores
-    render text: Neighborhood.first.scores.to_json
+    render text: CrimeScore.scores.to_json
   end
 end

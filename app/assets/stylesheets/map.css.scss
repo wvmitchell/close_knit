@@ -1,3 +1,338 @@
-// Place all the styles related to the map controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+/* dark grey : #383d3f; */
+
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;}
+body {line-height:1;text-align:left;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+:focus {outline:0;}
+ins{text-decoration:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+
+@font-face {
+    font-family: 'nerislight';
+    src: url('fonts/Neris-Light-webfont.eot');
+    src: url('fonts/Neris-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-Light-webfont.woff') format('woff'),
+         url('fonts/Neris-Light-webfont.ttf') format('truetype'),
+         url('fonts/Neris-Light-webfont.svg#nerislight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nerissemibold';
+    src: url('fonts/Neris-SemiBold-webfont.eot');
+    src: url('fonts/Neris-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-SemiBold-webfont.woff') format('woff'),
+         url('fonts/Neris-SemiBold-webfont.ttf') format('truetype'),
+         url('fonts/Neris-SemiBold-webfont.svg#nerissemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'neristhin';
+    src: url('fonts/Neris-Thin-webfont.eot');
+    src: url('fonts/Neris-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-Thin-webfont.woff') format('woff'),
+         url('fonts/Neris-Thin-webfont.ttf') format('truetype'),
+         url('fonts/Neris-Thin-webfont.svg#nerissemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+html { 
+	font-family: sans-serif;
+	-webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);}
+body {
+	width: 100%;
+	height: 100%;}
+h1 { color: white;
+	font-size: 15pt;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	text-align: center;}
+hr { border-color: #50585a;}
+p { font-family: 'nerissemibold', Georgia, sans-serif;
+	color: #c7c8c4;
+	font-size: 9pt;
+	line-height: 1.3em;}
+
+/* LOGO AND DIRECITON AREA */ 	
+div#logo_box {
+	width: 242px;
+	height: 282px;
+	margin-top:	 20px;
+	margin-left: 20px;
+	background-color: #383d3f;
+}
+
+.top_space { padding: 40px 0; }
+
+/* STAT DISPLAY  */
+div.n_stats { 
+	width: 25px;
+	height: 25px;
+	}
+
+div.n_stats { 
+  position: absolute;
+  cursor: pointer; 
+  z-index: 100;
+}
+
+/*location of individual icons */ 
+div#baker { 
+	position: relative;
+	top: 120px;
+	left: 700px;}
+div#speer {
+	position: relative;
+	top: 80px;
+	left: 600px;
+}
+
+/* icon is visible pre hover */
+img.n_icon {
+	position: absolute;
+	top: -20px;
+}
+
+img.table_overlay {
+	position: absolute;
+	top: -175px;
+	left: 95px;
+	opacity: 0;
+	height: 108px;
+	z-index: 99;
+}
+
+/* description of table headers */
+span.n_name, span.dg, span.lg{ 
+	display: block;
+	width: 120px;
+	padding: 12px 20px;
+	text-transform: uppercase; 
+	color: #fff;
+	font-family: 'nerissemibold', sans-serif;
+	font-size: 10pt;
+	text-align: center;
+	left: -65px;}
+
+span.n_name { 
+	top: -64px;
+	position: absolute;
+	background-color: #e16a63;
+	font-size: 12pt }
+img.tool_tip {
+	position: absolute;
+	top: -50px;
+	left: -48px;
+	opacity: 0;}
+span.lg, span.dg { position: absolute;}
+span.lg { 
+	top: -101px;
+	background-color: #c7c8c4;}
+span.dg { 
+	top: -138px;
+	background-color: #babab7;}
+span.lg2 { top: -175px;}
+
+/* make the unfolding table headers visible */
+span.dg, span.lg, span.n_name {
+	-webkit-transform-origin: 50% 100%;
+  	-o-transform-origin: 50% 100%;
+  	transform-origin: 50% 100%;
+  	-webkit-transform: perspective(350px) rotateX(-90deg);
+  	-o-transform: perspective(350px) rotateX(-90deg);
+  	transform: perspective(350px) rotateX(-90deg);
+}
+
+div.n_stats:hover span.dg, div.n_stats:hover span.lg, div.n_stats:hover span.n_name{
+ 	-webkit-transform: perspective(350px) rotateX(0deg);
+	-o-transform: perspective(350px) rotateX(0deg);
+ 	transform: perspective(350px) rotateX(0deg);
+  	-webkit-transition: .5s ease 0s;
+  	-o-transition: .5s ease 0s;
+  	transition: .5s ease 0s;
+}
+
+div.n_stats:hover img.tool_tip {
+	opacity: 1;
+	top: -40px;
+	-webkit-transition: .5s ease 0s;
+	-o-transition: .5s ease 0s;
+	transition: .5s ease 0s;
+}
+
+div.n_stats:hover span.lg {
+	webkit-transition-delay: .2s;
+	o-transition-delay: .2s;
+	transition-delay: .2s;
+}
+
+div.n_stats:hover span.dg {
+	webkit-transition-delay: .7s;
+	o-transition-delay: .7s;
+	transition-delay: .7s;
+}
+
+div.n_stats:hover span.lg2 {
+	webkit-transition-delay: 1.2s;
+	o-transition-delay: 1.2s;
+	transition-delay: 1.2s;
+}
+
+/* show the full table (and its overlays) (slide in from left, make opaque) */
+
+div.table {
+	width: 300px;
+	position: relative;
+	top: -175px;
+	background: #c7c8c4 url('images/table_underlay.png') no-repeat fixed right top;
+	height: 112px;
+	left: 145px;
+	opacity: 0;
+	overflow: hidden;
+	z-index: 85;
+}
+
+div.n_stats:hover div.table, div.n_stats:hover img.table_overlay {
+	opacity: 1;
+	left: 95px;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	webkit-transition-delay: 1.5s;
+	-o-transition-delay: 1.5s;
+	transition-delay: 1.5s;
+}
+
+div.n_stats:hover img.table_overlay {
+	-webkit-transition: all 1.5s ease-in;
+	-o-transition: all 1.5s ease-in;
+	transition: all 1.5s ease-in;
+	webkit-transition-delay: 2.3s;
+	o-transition-delay: 2.3s;
+	transition-delay: 2.3s;
+}
+
+/* make value bars slide right from within the table */
+
+span.bar {
+	background-color: #e16a63;
+	height: 35px;
+	position: absolute;
+	display: block;
+}
+
+span.bar_shadow {
+	height: inherit;
+	position: absolute;
+	right: 0;
+	width: 14px;
+	display: block;
+	background-color: #ce625b;
+}
+
+span.value_col{
+	left: 0px;
+	width: 220px;
+	top: 0px;
+}
+
+span.value_mac {
+	left: -300px;
+	width: 120px;
+	top: 37px;
+}
+
+span.value_acc {
+	left: -300px;
+	width: 270px;
+	top: 74px;
+}
+
+div.n_stats:hover span.bar {
+	left: 0px;
+	-webkit-transition: all .5s ease;
+	-o-transition: all .5s ease;
+	transition: all .5s ease;
+	}
+
+div.n_stats:hover span.value_col {
+	webkit-transition-delay: 2.1s;
+	-o-transition-delay: 2.1s;
+	transition-delay: 2.1s;
+}
+
+div.n_stats:hover span.value_mac {
+	webkit-transition-delay: 2.3s;
+	-o-transition-delay: 2.3s;
+	transition-delay: 2.3s;
+}
+
+div.n_stats:hover span.value_acc {
+	webkit-transition-delay: 2.5s;
+	-o-transition-delay: 2.5s;
+	transition-delay: 2.5s;
+}
+
+/* make stat appear in turquoise circle after bars have graphed out */
+
+span.circle { 
+	height: 22px;
+	width: 22px;
+	background-color: #75c3bc;
+	border-radius: 50%;
+	color: white;
+	font-family: 'nerissemibold', sans-serif;
+	position: absolute;
+	left: 435px;
+	opacity: 0;
+	font-size: 10pt;
+	padding: 8px 5px 2px 5px;
+	text-align: center;
+}
+
+span.circle_col { top: -101px; }
+span.circle_mac { top: -138px; }
+span.circle_acc { top: -175px; }
+
+div.n_stats:hover span.circle {
+	opacity: 1;
+	left: 410px;
+	-webkit-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+div.n_stats:hover span.circle_col {
+	webkit-transition-delay: 3.0s;
+	-o-transition-delay: 3.0s;
+	transition-delay: 3.0s;
+}
+
+div.n_stats:hover span.circle_mac {
+	webkit-transition-delay: 2.8s;
+	-o-transition-delay: 2.8s;
+	transition-delay: 2.8s;
+}
+
+div.n_stats:hover span.circle_acc {
+	webkit-transition-delay: 2.6s;
+	-o-transition-delay: 2.6s;
+	transition-delay: 2.6s;
+}
+
+
+
+
+
+

@@ -1,5 +1,3 @@
-require 'csv'
-
 namespace :parks do
   desc 'loads local parks from a csv'
   task :load_parks => :environment do
@@ -9,7 +7,8 @@ namespace :parks do
         lat: row[:latitude],
         lng: row[:longitude],
         name: row[:formal_name],
-        facilities: row[:facilities]
+        facilities: row[:facilities],
+        neighborhood: row[:location].downcase
       )
     end
   end
